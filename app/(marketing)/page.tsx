@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Heading from "./_components/heading";
 import Heros from "./_components/heros";
+import Footer from "./_components/footer";
 
 const MarketingPage = () => {
   return (
@@ -11,6 +12,7 @@ const MarketingPage = () => {
         <Heading />
         <Heros />
       </div>
+      <Footer />
     </div>
   );
 }
